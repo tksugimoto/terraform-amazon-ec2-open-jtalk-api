@@ -4,3 +4,8 @@
 
 perl -pi -e 's/^#?Port [0-9]+/Port ${ssh_port}/' /etc/ssh/sshd_config
 service sshd restart || service ssh restart
+
+
+yum update -y
+yum install -y docker
+service docker start
