@@ -1,0 +1,15 @@
+# Rename: terraform.tfvars.sample → terraform.tfvars
+
+# AWSのアクセスキー
+aws_access_key = "AKIA_____________________"
+aws_secret_key = "_______________________________"
+
+# 公開鍵ファイルのPath
+# sample: ~/.ssh/keys/hogehoge.pub
+ssh_public_key_path = ""
+
+# 各種リソースの名前のprefix
+prefix = "Test"
+
+# SSHの待ち受けポート変更
+ssh_port = 22
