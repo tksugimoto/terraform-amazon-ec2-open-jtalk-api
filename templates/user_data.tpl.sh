@@ -10,4 +10,4 @@ yum update -y
 yum install -y docker
 service docker start
 
-docker run -d -p 80:8080 u6kapps/open-jtalk-api
+docker run -d -p ${http_port}:8080 u6kapps/open-jtalk-api

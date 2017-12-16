@@ -13,3 +13,6 @@ prefix = "Test"
 
 # SSHの待ち受けポート変更
 ssh_port = 22
+
+# HTTPの待ち受けポート変更
+http_port = 80

@@ -8,6 +8,7 @@ data "template_file" "user_data" {
 
   vars {
     ssh_port = "${var.ssh_port}"
+    http_port = "${var.http_port}"
   }
 }
 
