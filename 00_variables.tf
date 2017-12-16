@@ -13,27 +13,29 @@ variable "ssh_public_key_path" {
 
 variable "prefix" {
   description = "各リソースの名前のPrefix"
-  default = "Test"
+  default     = "Test"
 }
 
 variable "aws_region" {
   description = "AWSリージョン"
-  default = "ap-northeast-1"
+  default     = "ap-northeast-1"
 }
 
 variable "ami_id" {
   description = "Amazon マシンイメージ（AMI）"
+
   # デフォルト：Amazon Linux
   default = "ami-da9e2cbc"
 }
 
 variable "ec2_instance_type" {
   description = "Amazon EC2 インスタンスタイプ"
+
   # デフォルト：無料枠対象のt2.micro
   default = "t2.micro"
 }
 
 variable "ssh_port" {
   description = "ssh用port番号"
-  default = 22
+  default     = 22
 }
