@@ -7,7 +7,8 @@ data "template_file" "user_data" {
   template = "${file("templates/user_data.tpl.sh")}"
 
   vars {
-    ssh_port = "${var.ssh_port}"
+    ssh_port  = "${var.ssh_port}"
+    http_port = "${var.http_port}"
   }
 }
 

@@ -39,3 +39,8 @@ variable "ssh_port" {
   description = "ssh用port番号"
   default     = 22
 }
+
+variable "http_port" {
+  description = "http用port番号"
+  default     = 80
+}
